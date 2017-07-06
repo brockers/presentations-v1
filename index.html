@@ -29,38 +29,37 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<img src="images/ai-shadow.png" alt="AI Logo" width="100" height="100" />
+					<img src="images/couchdb.png" alt="AI Logo" height="200" />
 					<h2>CouchDB is Awesome</h2>
-					<div>&nbsp;</div>
 					<div>
 						<small><small>
-							Website: <a href="http://www.ai-sys.com">https://www.ai-sys.com</a> &bull;
-							Github/LinkedIn: <a href="https://github.com/brockers">brockers</a> &bull;
+							Website: <a href="http://www.ai-sys.com">https://www.ai-sys.com</a> &nbsp;&nbsp;&nbsp; &bull; &nbsp;&nbsp;&nbsp;
+							Github/LinkedIn: <a href="https://github.com/brockers">brockers</a>  &nbsp;&nbsp;&nbsp; &bull; &nbsp;&nbsp;&nbsp;
 							Twitter/Slack: <a href="https://twitter.com/rrockers">@rrockers</a>
 						</small></small>
 					</div>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Non-relational Database, aka NoSQL</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Non-relational Database, aka NoSQL</h2>
 					<blockquote>Column, Key-Value, Graph & Document</blockquote>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> CouchDB Inside</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> CouchDB Inside</h2>
 					<blockquote>Documents, B-Trees, & Keys... Oh my</blockquote>
 					<img src="images/couchdb-trees.png" alt="CouchDB Trees" />
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Like this...</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Like this...</h2>
 					<pre>
 						<code> { name: value } </code>
 					</pre>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Or like this...</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Or like this...</h2>
 					<pre>
 					<code>{
 	{ name: value }:
@@ -74,7 +73,7 @@
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> CouchDB Outside</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> CouchDB Outside</h2>
 					<blockquote>Or why I hate ODBC, table translation, and SQL in general</blockquote>
 				</section>
 
@@ -83,7 +82,7 @@
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Relax</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Relax</h2>
 					<table>
 						<tr><td>Insert</td><td>Create</td><td> POST</td></tr>
 						<tr><td>Select</td><td> Read</td><td>GET</td></tr>
@@ -93,14 +92,14 @@
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Wait, so I can...</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Wait, so I can...</h2>
 					<pre>
 						<code>curl -X PUT localhost:5984/something_old</code>
 					</pre>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Inserting be like</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Inserting be like</h2>
 					<pre>
 						<code>
  curl -H 'Content-Type: application/json' \
@@ -111,40 +110,38 @@
         </section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Or Upload whole docs</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Or Upload whole docs</h2>
 					<pre>
 						<code>curl -X PUT -d @example.json localhost:5984/something_blue/12345</code>
 					</pre>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Select stuff</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Select stuff</h2>
 					<pre>
 						<code>curl -X GET localhost:5984/somethign_old/12345</code>
            </pre>
         </section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Built In GUI</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> Built In GUI</h2>
 					<pre>
 						<code>http://localhost:5984/_utils/</code>
            </pre>
         </section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> What about Map/Reduce</h2>
+					<h2><img src="images/couchdb.png" height="50" alt="Automation Integrated"/> What about Map/Reduce</h2>
 					<blockquote>If our documents are JSON & our results are JSON...</blockquote>
         </section>
 
-
-
 				<section>
-				w	<img src="images/ai-shadow.png" alt="AI Logo" width="150">
-					<div>&nbsp;Resources</div>
-					<div><small>CouchDB: The Definitive Guide <a href="http://guide.couchdb.org/">http://guide.couchdb.org/</a></small></div>
-					<div><small>JSONStudio Sample Data <a href="http://jsonstudio.com/resources/">http://jsonstudio.com/resources/</a></small></div>
-					<div><small>HTML Parameters <a href="http://www.rockerssoft.org/brockers/archives/2153">http://www.rockerssoft.org/brockers/archives/2153</a></small></div>
-					<img src="images/contact.png" alt="AI Logo" width="150">
+					<img src="images/ai-shadow.png" alt="AI Logo" width="120">
+					<blockquote>&nbsp;Resources</blockquote>
+					<div><small><small>CouchDB: The Definitive Guide &bull; <a href="http://guide.couchdb.org/">http://guide.couchdb.org/</a></small></small></div>
+					<div><small><small>JSONStudio Sample Data &bull; <a href="http://jsonstudio.com/resources/">http://jsonstudio.com/resources/</a></small></small></div>
+					<div><small><small>CouchDB HTML Parameters &bull; <a href="http://www.rockerssoft.org/brockers/archives/2153">https://gliff.me/xJOGyhR3</a></small></small></div>
+					<img src="images/contact.png" alt="AI Logo" width="120">
 				</section>
 
 			</div>
