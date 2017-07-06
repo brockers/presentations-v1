@@ -79,56 +79,71 @@
 				</section>
 
 				<section>
-					<blockquote>Life is really simple, but we insist on making it complicated.</blockquote>
+					<blockquote>Life is really simple, but we insist on making it complicated.<br>--Confucius</blockquote>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/>  Developing Your Amazon</h2>
-					<blockquote>Fight where your enemy is isn't,<br> hold were he is strong</blockquote>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Relax</h2>
+					<table>
+						<tr><td>Insert</td><td>Create</td><td> POST</td></tr>
+						<tr><td>Select</td><td> Read</td><td>GET</td></tr>
+						<tr><td>Update</td><td>Update</td><td>PUT</td></tr>
+						<tr><td>Delete</td><td>Delete</td><td>DELETE</td></tr>
+					</table>
 				</section>
 
 				<section>
-					<blockquote>Management is doing things right,<br> leadership is doing the right things.</blockquote>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Wait, so I can...</h2>
+					<pre>
+						<code>curl -X PUT localhost:5984/something_old</code>
+					</pre>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Knowledge buys you Time</h2>
-					<blockquote>Agile Development &bull; MVP</blockquote>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Inserting be like</h2>
+					<pre>
+						<code>
+ curl -H 'Content-Type: application/json' \
+            -X POST 127.0.0.1:5984/something_old \
+            -d '{"company": "IBM Inc."}'
+            </code>
+           </pre>
+        </section>
+
+				<section>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Or Upload whole docs</h2>
+					<pre>
+						<code>curl -X PUT -d @example.json localhost:5984/something_blue/12345</code>
+					</pre>
 				</section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Experience directs Teams</h2>
-					<blockquote>Leadership &bull; Development<br> Outsource &bull; In-source</blockquote>
-				</section>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Select stuff</h2>
+					<pre>
+						<code>curl -X GET localhost:5984/somethign_old/12345</code>
+           </pre>
+        </section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Data is valuable, Infrastructure is cheap</h2>
-					<blockquote>Open Source &bull; AWS &bull; DevOps</blockquote>
-				</section>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Built In GUI</h2>
+					<pre>
+						<code>http://localhost:5984/_utils/</code>
+           </pre>
+        </section>
 
 				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Customers are Investment</h2>
-					<blockquote>Pursuit &bull; Pivot &bull; Perfect</blockquote>
-				</section>
+					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> What about Map/Reduce</h2>
+					<blockquote>If our documents are JSON & our results are JSON...</blockquote>
+        </section>
+
+
 
 				<section>
-					<blockquote>I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.
-						<br>
-						--Alexander the Great
-					</blockquote>
-				</section>
-
-				<section>
-					<h2><img src="images/ai-shadow.png" height="50" alt="Automation Integrated"/> Have a Broader Vision</h2>
-					<blockquote>Your focus becomes your strategy</blockquote>
-				</section>
-
-				<section>
-					<img src="images/ai-shadow.png" alt="AI Logo" width="150">
-					<div>&nbsp;</div>
-					<div><small>Website: <a href="http://www.ai-sys.com">https://www.ai-sys.com</a></small></div>
-					<div><small>Github/LinkedIn: <a href="https://github.com/brockers">brockers</a></small></div>
-					<div><small>Twitter/Slack: <a href="https://twitter.com/rrockers">@rrockers</a></small></div>
+				w	<img src="images/ai-shadow.png" alt="AI Logo" width="150">
+					<div>&nbsp;Resources</div>
+					<div><small>CouchDB: The Definitive Guide <a href="http://guide.couchdb.org/">http://guide.couchdb.org/</a></small></div>
+					<div><small>JSONStudio Sample Data <a href="http://jsonstudio.com/resources/">http://jsonstudio.com/resources/</a></small></div>
+					<div><small>HTML Parameters <a href="http://www.rockerssoft.org/brockers/archives/2153">http://www.rockerssoft.org/brockers/archives/2153</a></small></div>
 					<img src="images/contact.png" alt="AI Logo" width="150">
 				</section>
 
