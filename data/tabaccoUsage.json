@@ -1,0 +1,1150 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "rnvb-cpxx",
+      "name" : "Adult Tobacco Consumption In The U.S., 2000-Present",
+      "attribution" : "Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health",
+      "averageRating" : 0,
+      "category" : "Policy",
+      "createdAt" : 1491483954,
+      "description" : "2000 to Present. Adult Tobacco Consumption in the U.S. This dataset highlights critical trends in adult total and per capita consumption of both combustible (cigarettes, little cigars, small cigars, pipe tobacco, roll-your-own tobacco) tobacco products and smokeless (chewing tobacco and snuff) tobacco from 2000 to present. To view the CDC MMWR report, please visit https://www.cdc.gov/mmwr/volumes/65/wr/mm6548a1.htm.",
+      "displayType" : "table",
+      "downloadCount" : 2312,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1504878975,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 26450544,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1500985691,
+      "publicationGroup" : 14134439,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1500985588,
+      "rowsUpdatedBy" : "p5wh-zttj",
+      "tableId" : 14351935,
+      "totalTimesRated" : 0,
+      "viewCount" : 361,
+      "viewLastModified" : 1504878827,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 312650860,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817753,
+        "width" : 86,
+        "cachedContents" : {
+          "largest" : "2016",
+          "non_null" : 221,
+          "average" : "2008",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2000",
+            "count" : 20
+          }, {
+            "item" : "2001",
+            "count" : 19
+          }, {
+            "item" : "2002",
+            "count" : 18
+          }, {
+            "item" : "2003",
+            "count" : 17
+          }, {
+            "item" : "2004",
+            "count" : 16
+          }, {
+            "item" : "2005",
+            "count" : 15
+          }, {
+            "item" : "2006",
+            "count" : 14
+          }, {
+            "item" : "2007",
+            "count" : 13
+          }, {
+            "item" : "2008",
+            "count" : 12
+          }, {
+            "item" : "2009",
+            "count" : 11
+          }, {
+            "item" : "2010",
+            "count" : 10
+          }, {
+            "item" : "2011",
+            "count" : 9
+          }, {
+            "item" : "2012",
+            "count" : 8
+          }, {
+            "item" : "2013",
+            "count" : 7
+          }, {
+            "item" : "2014",
+            "count" : 6
+          }, {
+            "item" : "2015",
+            "count" : 5
+          }, {
+            "item" : "2016",
+            "count" : 4
+          } ],
+          "smallest" : "2000",
+          "sum" : "443768"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 312650861,
+        "name" : "LocationAbbrev",
+        "dataTypeName" : "text",
+        "fieldName" : "locationabbrev",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 45817754,
+        "width" : 91,
+        "cachedContents" : {
+          "largest" : "US",
+          "non_null" : 221,
+          "null" : 0,
+          "top" : [ {
+            "item" : "US",
+            "count" : 20
+          } ],
+          "smallest" : "US"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650862,
+        "name" : "LocationDesc",
+        "dataTypeName" : "text",
+        "fieldName" : "locationdesc",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 45817755,
+        "width" : 143,
+        "cachedContents" : {
+          "largest" : "National",
+          "non_null" : 221,
+          "null" : 0,
+          "top" : [ {
+            "item" : "National",
+            "count" : 20
+          } ],
+          "smallest" : "National"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650863,
+        "name" : "Population",
+        "dataTypeName" : "number",
+        "fieldName" : "population",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817756,
+        "width" : 132,
+        "cachedContents" : {
+          "largest" : "249485228",
+          "non_null" : 221,
+          "average" : "229871223",
+          "null" : 0,
+          "top" : [ {
+            "item" : "209786736",
+            "count" : 20
+          }, {
+            "item" : "212345162",
+            "count" : 19
+          }, {
+            "item" : "214754648",
+            "count" : 18
+          }, {
+            "item" : "217068101",
+            "count" : 17
+          }, {
+            "item" : "219552929",
+            "count" : 16
+          }, {
+            "item" : "222003984",
+            "count" : 15
+          }, {
+            "item" : "224583123",
+            "count" : 14
+          }, {
+            "item" : "227239768",
+            "count" : 13
+          }, {
+            "item" : "229945137",
+            "count" : 12
+          }, {
+            "item" : "232458335",
+            "count" : 11
+          }, {
+            "item" : "235153929",
+            "count" : 10
+          }, {
+            "item" : "237657645",
+            "count" : 9
+          }, {
+            "item" : "240185952",
+            "count" : 8
+          }, {
+            "item" : "242542967",
+            "count" : 7
+          }, {
+            "item" : "245273438",
+            "count" : 6
+          }, {
+            "item" : "247773709",
+            "count" : 5
+          }, {
+            "item" : "249485228",
+            "count" : 4
+          } ],
+          "smallest" : "209786736",
+          "sum" : "50801540283"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650864,
+        "name" : "Topic",
+        "dataTypeName" : "text",
+        "fieldName" : "topic",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 45817757,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "Noncombustible Tobacco",
+          "non_null" : 221,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Combustible Tobacco",
+            "count" : 20
+          }, {
+            "item" : "Noncombustible Tobacco",
+            "count" : 19
+          } ],
+          "smallest" : "Combustible Tobacco"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650865,
+        "name" : "Measure",
+        "dataTypeName" : "text",
+        "fieldName" : "measure",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 45817758,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Smokeless Tobacco",
+          "non_null" : 221,
+          "null" : 0,
+          "top" : [ {
+            "item" : "All Combustibles",
+            "count" : 20
+          }, {
+            "item" : "Cigarettes",
+            "count" : 19
+          }, {
+            "item" : "Cigars ",
+            "count" : 18
+          }, {
+            "item" : "Loose Tobacco",
+            "count" : 17
+          }, {
+            "item" : "Smokeless Tobacco",
+            "count" : 16
+          } ],
+          "smallest" : "All Combustibles"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650866,
+        "name" : "Submeasure",
+        "dataTypeName" : "text",
+        "fieldName" : "submeasure",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 45817759,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "Total Loose Tobacco",
+          "non_null" : 221,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Total Combustible Tobacco",
+            "count" : 20
+          }, {
+            "item" : "Cigarette Removals",
+            "count" : 19
+          }, {
+            "item" : "Large Cigars",
+            "count" : 18
+          }, {
+            "item" : "Small Cigars",
+            "count" : 17
+          }, {
+            "item" : "Total Cigars",
+            "count" : 16
+          }, {
+            "item" : "Pipe Tobacco",
+            "count" : 15
+          }, {
+            "item" : "Roll-Your-Own Tobacco",
+            "count" : 14
+          }, {
+            "item" : "Total Loose Tobacco",
+            "count" : 13
+          }, {
+            "item" : "Chewing Tobacco",
+            "count" : 12
+          }, {
+            "item" : "Snuff",
+            "count" : 11
+          } ],
+          "smallest" : "Chewing Tobacco"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650867,
+        "name" : "Data Value Unit",
+        "dataTypeName" : "text",
+        "fieldName" : "data_value_unit",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 45817760,
+        "width" : 280,
+        "cachedContents" : {
+          "largest" : "Pounds",
+          "non_null" : 221,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Cigarette Equivalents",
+            "count" : 20
+          }, {
+            "item" : "Cigarettes",
+            "count" : 19
+          }, {
+            "item" : "Cigars",
+            "count" : 18
+          }, {
+            "item" : "Pounds",
+            "count" : 17
+          } ],
+          "smallest" : "Cigarette Equivalents"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650868,
+        "name" : "Domestic",
+        "dataTypeName" : "number",
+        "fieldName" : "domestic",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817761,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "437154499804",
+          "non_null" : 221,
+          "average" : "55456781225.98643",
+          "null" : 0,
+          "top" : [ {
+            "item" : "112352476",
+            "count" : 20
+          }, {
+            "item" : "113664778",
+            "count" : 19
+          }, {
+            "item" : "116987888",
+            "count" : 18
+          }, {
+            "item" : "273354303304",
+            "count" : 17
+          }, {
+            "item" : "249790085996",
+            "count" : 16
+          }, {
+            "item" : "4570315738",
+            "count" : 15
+          }, {
+            "item" : "475333201",
+            "count" : 14
+          }, {
+            "item" : "5045648939",
+            "count" : 13
+          }, {
+            "item" : "17071982277",
+            "count" : 12
+          }, {
+            "item" : "34677464",
+            "count" : 11
+          }, {
+            "item" : "1446586092",
+            "count" : 10
+          }, {
+            "item" : "2938378",
+            "count" : 9
+          }, {
+            "item" : "18518568369",
+            "count" : 8
+          }, {
+            "item" : "37615842",
+            "count" : 7
+          }, {
+            "item" : "18913518",
+            "count" : 6
+          }, {
+            "item" : "118477707",
+            "count" : 5
+          } ],
+          "smallest" : "2938378",
+          "sum" : "12255948650943"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650869,
+        "name" : "Imports",
+        "dataTypeName" : "number",
+        "fieldName" : "imports",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817762,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "24733051892",
+          "non_null" : 221,
+          "average" : "2866887405.307692",
+          "null" : 0,
+          "top" : [ {
+            "item" : "654149",
+            "count" : 20
+          }, {
+            "item" : "702966",
+            "count" : 19
+          }, {
+            "item" : "583932",
+            "count" : 18
+          }, {
+            "item" : "17154801323",
+            "count" : 17
+          }, {
+            "item" : "7629000000",
+            "count" : 16
+          }, {
+            "item" : "6974839000",
+            "count" : 15
+          }, {
+            "item" : "21351000",
+            "count" : 14
+          }, {
+            "item" : "6996190000",
+            "count" : 13
+          }, {
+            "item" : "2412131938",
+            "count" : 12
+          }, {
+            "item" : "4899643",
+            "count" : 11
+          }, {
+            "item" : "117479385",
+            "count" : 10
+          }, {
+            "item" : "238630",
+            "count" : 9
+          }, {
+            "item" : "2529611323",
+            "count" : 8
+          }, {
+            "item" : "5138273",
+            "count" : 7
+          }, {
+            "item" : "1092411",
+            "count" : 6
+          }, {
+            "item" : "606334",
+            "count" : 5
+          } ],
+          "smallest" : "8369",
+          "sum" : "633582116573"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650870,
+        "name" : "Total",
+        "dataTypeName" : "number",
+        "fieldName" : "total",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817763,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "450725147466",
+          "non_null" : 221,
+          "average" : "58323668631.28959",
+          "null" : 0,
+          "top" : [ {
+            "item" : "113006625",
+            "count" : 20
+          }, {
+            "item" : "114367744",
+            "count" : 19
+          }, {
+            "item" : "117571820",
+            "count" : 18
+          }, {
+            "item" : "290509104627",
+            "count" : 17
+          }, {
+            "item" : "257419085996",
+            "count" : 16
+          }, {
+            "item" : "11545154738",
+            "count" : 15
+          }, {
+            "item" : "496684201",
+            "count" : 14
+          }, {
+            "item" : "12041838939",
+            "count" : 13
+          }, {
+            "item" : "19484114215",
+            "count" : 12
+          }, {
+            "item" : "39577107",
+            "count" : 11
+          }, {
+            "item" : "1564065477",
+            "count" : 10
+          }, {
+            "item" : "3177008",
+            "count" : 9
+          }, {
+            "item" : "21048179692",
+            "count" : 8
+          }, {
+            "item" : "42754115",
+            "count" : 7
+          }, {
+            "item" : "20005929",
+            "count" : 6
+          }, {
+            "item" : "119084041",
+            "count" : 5
+          } ],
+          "smallest" : "3177008",
+          "sum" : "12889530767515"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650871,
+        "name" : "Domestic Per Capita",
+        "dataTypeName" : "number",
+        "fieldName" : "domestic_per_capita",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817764,
+        "width" : 203,
+        "cachedContents" : {
+          "largest" : "2084",
+          "non_null" : 221,
+          "average" : "243.6380090497738",
+          "null" : 0,
+          "top" : [ {
+            "item" : "17",
+            "count" : 20
+          }, {
+            "item" : "20",
+            "count" : 19
+          }, {
+            "item" : "42",
+            "count" : 18
+          }, {
+            "item" : "28",
+            "count" : 17
+          }, {
+            "item" : "21",
+            "count" : 16
+          }, {
+            "item" : "11",
+            "count" : 15
+          }, {
+            "item" : "10",
+            "count" : 14
+          }, {
+            "item" : "12",
+            "count" : 13
+          }, {
+            "item" : "24",
+            "count" : 12
+          }, {
+            "item" : "9",
+            "count" : 11
+          }, {
+            "item" : "3",
+            "count" : 10
+          }, {
+            "item" : "2",
+            "count" : 9
+          }, {
+            "item" : "27",
+            "count" : 8
+          }, {
+            "item" : "37",
+            "count" : 7
+          }, {
+            "item" : "44",
+            "count" : 6
+          }, {
+            "item" : "35",
+            "count" : 5
+          }, {
+            "item" : "31",
+            "count" : 4
+          }, {
+            "item" : "23",
+            "count" : 3
+          }, {
+            "item" : "7",
+            "count" : 2
+          }, {
+            "item" : "0",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "53844"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650872,
+        "name" : "Imports Per Capita",
+        "dataTypeName" : "number",
+        "fieldName" : "imports_per_capita",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817765,
+        "width" : 186,
+        "cachedContents" : {
+          "largest" : "114",
+          "non_null" : 221,
+          "average" : "12.51131221719457",
+          "null" : 0,
+          "top" : [ {
+            "item" : "82",
+            "count" : 20
+          }, {
+            "item" : "58",
+            "count" : 19
+          }, {
+            "item" : "69",
+            "count" : 18
+          }, {
+            "item" : "33",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "3",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          }, {
+            "item" : "0",
+            "count" : 13
+          }, {
+            "item" : "1",
+            "count" : 12
+          }, {
+            "item" : "5",
+            "count" : 11
+          }, {
+            "item" : "6",
+            "count" : 10
+          }, {
+            "item" : "9",
+            "count" : 9
+          }, {
+            "item" : "10",
+            "count" : 8
+          }, {
+            "item" : "13",
+            "count" : 7
+          }, {
+            "item" : "15",
+            "count" : 6
+          }, {
+            "item" : "20",
+            "count" : 5
+          }, {
+            "item" : "25",
+            "count" : 4
+          }, {
+            "item" : "7",
+            "count" : 3
+          }, {
+            "item" : "8",
+            "count" : 2
+          }, {
+            "item" : "31",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "2765"
+        },
+        "format" : { }
+      }, {
+        "id" : 312650873,
+        "name" : "Total Per Capita",
+        "dataTypeName" : "number",
+        "fieldName" : "total_per_capita",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 45817766,
+        "width" : 195,
+        "cachedContents" : {
+          "largest" : "2148",
+          "non_null" : 221,
+          "average" : "256.1719457013575",
+          "null" : 0,
+          "top" : [ {
+            "item" : "54",
+            "count" : 20
+          }, {
+            "item" : "52",
+            "count" : 19
+          }, {
+            "item" : "47",
+            "count" : 18
+          }, {
+            "item" : "11",
+            "count" : 17
+          }, {
+            "item" : "13",
+            "count" : 16
+          }, {
+            "item" : "26",
+            "count" : 15
+          }, {
+            "item" : "10",
+            "count" : 14
+          }, {
+            "item" : "3",
+            "count" : 13
+          }, {
+            "item" : "2",
+            "count" : 12
+          }, {
+            "item" : "29",
+            "count" : 11
+          }, {
+            "item" : "30",
+            "count" : 10
+          }, {
+            "item" : "41",
+            "count" : 9
+          }, {
+            "item" : "56",
+            "count" : 8
+          }, {
+            "item" : "14",
+            "count" : 7
+          }, {
+            "item" : "27",
+            "count" : 6
+          }, {
+            "item" : "80",
+            "count" : 5
+          }, {
+            "item" : "0",
+            "count" : 4
+          }, {
+            "item" : "43",
+            "count" : 3
+          }, {
+            "item" : "36",
+            "count" : 2
+          }, {
+            "item" : "40",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "56614"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "year"
+          } ]
+        },
+        "custom_fields" : {
+          "Common Core" : {
+            "Contact Email" : "cdcinfo@cdc.gov",
+            "Contact Name" : "CDC INFO",
+            "Program Code" : "009:020",
+            "Publisher" : "Centers for Disease Control and Prevention",
+            "Bureau Code" : "009:20",
+            "Public Access Level" : "Public Domain"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "p5wh-zttj",
+        "displayName" : "OSHData",
+        "lastAuthenticatedAt" : 1504881949,
+        "profileImageUrlLarge" : "/api/users/p5wh-zttj/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/p5wh-zttj/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/p5wh-zttj/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "OSHData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 312650860,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "p5wh-zttj",
+        "displayName" : "OSHData",
+        "lastAuthenticatedAt" : 1504881949,
+        "profileImageUrlLarge" : "/api/users/p5wh-zttj/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/p5wh-zttj/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/p5wh-zttj/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "OSHData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "tobacco consumption", "per capita", "combustibles", "non-combustibles", "cigarette", "smokeless", "cigar", "loose tobacco", "pipe tobacco", "roll-your-own tobacco" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "4867AC05-2198-4C49-9A1B-998572779B69", 1, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "437154499804", "13570647662", "450725147466", "2084", "65", "2148" ]
+, [ 2, "40A7ABBF-33F2-46FC-882A-57ACD99E41CA", 2, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "424447310483", "16245487123", "440692797606", "1999", "77", "2075" ]
+, [ 3, "6D3652E9-D209-4E0F-AB90-C8ECC4DBCD83", 3, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "408303465673", "22459975923", "430763441596", "1901", "105", "2006" ]
+, [ 4, "72BF8FF6-95F2-49FB-AE76-FE61F0D0B294", 4, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "391196952717", "24733051892", "415930004609", "1802", "114", "1916" ]
+, [ 5, "3799B632-1EBE-46E4-B102-0DA5692F56C9", 5, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "390166439041", "24254733538", "414421172579", "1777", "110", "1888" ]
+, [ 6, "AD1F4AB1-EF11-4D34-B2B4-0796FC928748", 6, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "380712422031", "20474781600", "401187203631", "1715", "92", "1807" ]
+, [ 7, "9A4E34FA-6723-46F7-B5DB-A9807E8FCE77", 7, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "382748665603", "18493161400", "401241827003", "1704", "82", "1787" ]
+, [ 8, "074481A2-D999-47E0-9D48-2628FA971C59", 8, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "367880476823", "16206169554", "384086646377", "1619", "71", "1690" ]
+, [ 9, "4E83C456-9806-4F53-8D05-BF4DF118A944", 9, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "357080696204", "14183410908", "371264107112", "1553", "62", "1615" ]
+, [ 10, "B5F7FBED-9289-43CA-8131-179C4C9643A4", 10, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "329491123539", "12632961400", "342124084939", "1417", "54", "1472" ]
+, [ 11, "AB6E4D89-9B9B-4749-8B74-B838C8673A00", 11, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "317475052695", "11764157615", "329239210311", "1350", "50", "1400" ]
+, [ 12, "F11C06FD-84BF-4451-AAA1-658DA30A19D8", 12, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "315683514293", "10893776123", "326577290416", "1328", "46", "1374" ]
+, [ 13, "C0C9C9E8-87A6-4E2A-9806-C590DF56DDCF", 13, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "310009439421", "12386990662", "322396430083", "1291", "52", "1342" ]
+, [ 14, "5671B50C-C2C2-4BCA-BA50-765449FA356D", 14, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "295476582903", "14164450662", "309641033564", "1218", "58", "1277" ]
+, [ 15, "73899AA7-8095-4DA8-869A-460A6DE12E0C", 15, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "282020020624", "16175868538", "298195889163", "1150", "66", "1216" ]
+, [ 16, "06F22221-FB00-4AA4-8B99-4407FBBB3007", 16, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "284590497977", "16983972385", "301574470362", "1149", "69", "1217" ]
+, [ 17, "1D15EF91-6A5E-4E52-AC99-5315B10CD379", 17, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "423250355675", "12319663000", "435570018675", "2018", "59", "2076" ]
+, [ 18, "95FE4FEB-E9C6-4C86-875A-2FDA83088912", 18, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "412031245791", "14688910000", "426720155791", "1940", "69", "2010" ]
+, [ 19, "262509D9-5F59-4C1E-B2BC-AAA02D56CA49", 19, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "394871830876", "20851781000", "415723611876", "1839", "97", "1936" ]
+, [ 20, "EF63F659-3A47-4C11-9F11-38F535A3285D", 20, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "377241580953", "23085086000", "400326666953", "1738", "106", "1844" ]
+, [ 21, "3CBCC872-5694-4E39-9854-BE15A6D2A033", 21, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "374977639606", "22677777000", "397655416606", "1708", "103", "1811" ]
+, [ 22, "1CA96689-BFCD-4621-9F7D-36BCD695E18E", 22, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "362963574561", "18134795000", "381098369561", "1635", "82", "1717" ]
+, [ 23, "76F9E607-C01F-4751-ACF8-CADC7D55F55A", 23, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "364437096601", "16156451000", "380593547601", "1623", "72", "1695" ]
+, [ 24, "C22A751F-7EF4-49FF-8D19-7D695EA9BAAA", 24, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "348317484882", "13272402000", "361589886882", "1533", "58", "1591" ]
+, [ 25, "9FF2BE56-19F8-4F7F-A28B-78B04F7E2A58", 25, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "335384308754", "11035202000", "346419510754", "1459", "48", "1507" ]
+, [ 26, "D573B397-D322-4508-955A-1A283752C2C7", 26, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "308387865658", "9348209000", "317736074658", "1327", "40", "1367" ]
+, [ 27, "B63E7E49-0B1D-4217-801E-658FEA412D7C", 27, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "292753880443", "7696903000", "300450783443", "1245", "33", "1278" ]
+, [ 28, "1BFFE9C8-5C7B-4DBD-8A16-40160F260CB4", 28, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "286352524912", "6416560000", "292769084912", "1205", "27", "1232" ]
+, [ 29, "D611C9E3-765E-4C78-9670-5B04DB451537", 29, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "279838393182", "7348808000", "287187201182", "1165", "31", "1196" ]
+, [ 30, "D5BD5D9D-8BD5-4632-92F8-A1DB06ED2A4C", 30, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "266088075153", "7697423000", "273785498153", "1097", "32", "1129" ]
+, [ 31, "2154CF96-8EAA-48D5-8EEF-A60ABC82705F", 31, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "254486570103", "8194703000", "262681273103", "1038", "33", "1071" ]
+, [ 32, "7BF135B3-D5E6-41C9-ACFC-5CE8A262261B", 32, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "259294293391", "8540221000", "267834514391", "1046", "34", "1081" ]
+, [ 33, "EA4BF388-D3E1-469B-B653-E92AB2836638", 33, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "3369732285", "512194000", "3881926285", "16", "2", "19" ]
+, [ 34, "A840B2FF-00AF-4500-871C-1049F50DA210", 34, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "3563717412", "540798000", "4104515412", "17", "3", "19" ]
+, [ 35, "E84C1E51-0945-427A-9E0D-8244BBA44417", 35, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "3703237388", "499924000", "4203161388", "17", "2", "20" ]
+, [ 36, "A1ECBA6C-CF6A-4EEB-A8C2-0039FF5669E0", 36, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4018523214", "514566000", "4533089214", "19", "2", "21" ]
+, [ 37, "3269DC3B-6778-4E5E-9699-DD6BFF673C68", 37, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4319160065", "615596000", "4934756065", "20", "3", "22" ]
+, [ 38, "B18CC054-AD51-42B8-82EC-76E695FFA901", 38, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4431800085", "651732000", "5083532085", "20", "3", "23" ]
+, [ 39, "F41F57AB-C654-4817-ADBE-6EE596D40767", 39, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4503604349", "795133000", "5298737349", "20", "4", "24" ]
+, [ 40, "780885F6-45E6-47D9-9B49-D89F3DD1E4CE", 40, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4658667130", "889004000", "5547671130", "21", "4", "24" ]
+, [ 41, "F74B8E58-23BB-4E43-9430-D80580A39389", 41, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4672736408", "984282000", "5657018408", "20", "4", "25" ]
+, [ 42, "07C4B107-662A-4B0F-A2F6-303608DE975C", 42, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "7981903518", "1802149000", "9784052518", "34", "8", "42" ]
+, [ 43, "4189736F-0CED-435A-B3CD-E77E03B54F49", 43, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "9940951946", "2345752000", "12286703946", "42", "10", "52" ]
+, [ 44, "165154AF-8BE2-4E0B-9B86-874414C20877", 44, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "9997562563", "2931540000", "12929102563", "42", "12", "54" ]
+, [ 45, "FD5DF6AF-5735-4B68-B189-11AAA4B0BAF8", 45, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "9438748098", "3586024000", "13024772098", "39", "15", "54" ]
+, [ 46, "A255FE58-5D3F-4B5C-837B-20F5D808EA3D", 46, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "7783004119", "4716423000", "12499427119", "32", "19", "52" ]
+, [ 47, "385F7BEF-8638-4D91-94B5-720324752E8A", 47, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "6961138057", "6169557000", "13130695057", "28", "25", "54" ]
+, [ 48, "3196969E-D74D-4F35-A24F-8A5C5C971D95", 48, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "5262638420", "6481846000", "11744484420", "21", "26", "47" ]
+, [ 49, "42723721-C7D2-4831-B996-8BBF8BDAE445", 49, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "2243135044", "36049000", "2279184044", "11", "0", "11" ]
+, [ 50, "7DC3B586-3A96-4045-86F0-35ABC70ABE5B", 50, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "2171391711", "67979000", "2239370711", "10", "0", "11" ]
+, [ 51, "9AAE9A85-D812-4751-9D8C-30B36579FDA5", 51, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "2247836178", "95082000", "2342918178", "10", "0", "11" ]
+, [ 52, "E7FF0109-5F2B-4EF1-B5C8-6AC53C33E047", 52, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "2301972488", "172369000", "2474341488", "11", "1", "11" ]
+, [ 53, "1B2CE07C-6B06-4131-9D95-E27624E60E4B", 53, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "2701646262", "215443000", "2917089262", "12", "1", "13" ]
+, [ 54, "A6089830-5F81-4C2C-93FF-BBFBB8498BED", 54, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "3772041108", "196453000", "3968494108", "17", "1", "18" ]
+, [ 55, "308CD722-0C62-489E-BB8E-457313CB57A2", 55, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "4162220407", "271875000", "4434095407", "19", "1", "20" ]
+, [ 56, "1CB0A883-84B5-438E-9AF8-54A56A140DEE", 56, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "4849626473", "311199000", "5160825473", "21", "1", "23" ]
+, [ 57, "542E46AF-63D1-456A-B820-A9F860006768", 57, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "5470956642", "409873000", "5880829642", "24", "2", "26" ]
+, [ 58, "D1014D84-92B7-4F5E-9F81-629145AE5C60", 58, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "2150667840", "191877000", "2342544840", "9", "1", "10" ]
+, [ 59, "9A53E426-8F01-40EE-849D-C33BEA366895", 59, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "902728614", "79974000", "982702614", "4", "0", "4" ]
+, [ 60, "68B3C94E-3C26-4BB5-BBFC-67908FDC5C25", 60, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "753869895", "44308000", "798177895", "3", "0", "3" ]
+, [ 61, "D99210FA-038B-4697-BC3D-53850D538C2C", 61, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "704842141", "57193000", "762035141", "3", "0", "3" ]
+, [ 62, "0B923E0A-03EC-49BF-88B0-8360F311D374", 62, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "610589169", "48855000", "659444169", "3", "0", "3" ]
+, [ 63, "5B505F06-4667-4ED2-9A88-9E97A9714D0B", 63, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "542454495", "21403000", "563857495", "2", "0", "2" ]
+, [ 64, "252D8884-54AA-4FBA-9FAB-746C385D5612", 64, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "530680751", "23505000", "554185751", "2", "0", "2" ]
+, [ 65, "7CA86BD9-E963-4D8D-BD34-37DAC14EEFD2", 65, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "5612867329", "548243000", "6161110329", "27", "3", "29" ]
+, [ 66, "682BEC24-520E-4414-A082-44EBB109CD71", 66, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "5735109123", "608777000", "6343886123", "27", "3", "30" ]
+, [ 67, "99CCED4E-D03F-44CD-A863-61FD2F542E9F", 67, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "5951073566", "595006000", "6546079566", "28", "3", "30" ]
+, [ 68, "6F91C39C-47FE-42C7-8866-A1EA744AAD69", 68, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "6320495702", "686935000", "7007430702", "29", "3", "32" ]
+, [ 69, "EE6D27E5-42D5-40F7-91FC-89C628E46286", 69, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "7020806327", "831039000", "7851845327", "32", "4", "36" ]
+, [ 70, "3560672E-DD00-4049-A1DA-55B6A9293387", 70, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "8203841193", "848185000", "9052026193", "37", "4", "41" ]
+, [ 71, "C404023C-3425-4361-9D2F-183A294A3FEB", 71, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "8665824756", "1067008000", "9732832756", "39", "5", "43" ]
+, [ 72, "D82A3C2E-04F5-48F9-B862-45E62440AAF6", 72, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "9508293603", "1200203000", "10708496603", "42", "5", "47" ]
+, [ 73, "211791F2-A9EB-4330-A0A0-343894201170", 73, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "10143693050", "1394155000", "11537848050", "44", "6", "50" ]
+, [ 74, "3C21E228-6460-4BC6-B521-A2010E812A2E", 74, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "10132571358", "1994026000", "12126597358", "44", "9", "52" ]
+, [ 75, "03D26D46-80C0-40BD-8446-85BA6B6A5566", 75, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "10843680560", "2425726000", "13269406560", "46", "10", "56" ]
+, [ 76, "8A13F64A-96A9-4D27-B4C6-70606ED3BB46", 76, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "10751432458", "2975848000", "13727280458", "45", "13", "58" ]
+, [ 77, "109803C8-4927-4D2E-BEAD-EC9857E6AB2B", 77, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "10143590239", "3643217000", "13786807239", "42", "15", "57" ]
+, [ 78, "E8D35FBB-3F69-489B-9246-33528485C8A9", 78, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "8393593288", "4765278000", "13158871288", "35", "20", "54" ]
+, [ 79, "8DB24E9F-BB95-405B-A3A7-A98F01ECFB4B", 79, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "7503592552", "6190960000", "13694552552", "31", "25", "56" ]
+, [ 80, "BF7D70BC-C781-4082-B755-6DC5849B7891", 80, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "5793319171", "6275168000", "12068487171", "23", "25", "49" ]
+, [ 81, "30E046E6-2153-4A5B-B092-8305E2842220", 81, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "2635167015", "364252062", "2999419077", "13", "2", "14" ]
+, [ 82, "3FF87F13-F637-4373-B393-B8D93E637AB4", 82, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "2421344492", "493322338", "2914666831", "11", "2", "14" ]
+, [ 83, "0475BCFD-7DF6-43B1-A6F7-09EB0F603753", 83, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "2278010585", "479059692", "2757070277", "11", "2", "13" ]
+, [ 84, "297CEF97-3AED-4991-95B9-6A1696DC5478", 84, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "2045639385", "343673108", "2389312492", "9", "2", "11" ]
+, [ 85, "5586050C-E6DA-4725-862B-3AFD136D4EF9", 85, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "1922368000", "391132062", "2313500062", "9", "2", "11" ]
+, [ 86, "8D36396B-2BBF-42D9-A296-513E34E8FAF4", 86, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "1915462400", "507187692", "2422650092", "9", "2", "11" ]
+, [ 87, "37D5608F-1919-4386-9425-86CDE9E8EF6A", 87, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "1613252923", "708639015", "2321891938", "7", "3", "10" ]
+, [ 88, "4927585A-3D5A-4CC4-B228-FB58C1EAD96E", 88, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "1545756554", "916830523", "2462587077", "7", "4", "11" ]
+, [ 89, "95595572-31A7-496B-9F81-40C61375C286", 89, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "1563947323", "1021555200", "2585502523", "7", "4", "11" ]
+, [ 90, "5E8020F2-36AD-4489-AADC-E8261A1A7E80", 90, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "5279921723", "975782400", "6255704123", "23", "4", "27" ]
+, [ 91, "1507E322-D248-4131-BB0E-BF00AA617953", 91, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "10961836800", "1389512369", "12351349169", "47", "6", "53" ]
+, [ 92, "61199D07-4AA3-477E-8139-6B126C71CFBF", 92, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "16167488985", "1291845908", "17459334892", "68", "5", "73" ]
+, [ 93, "9EE3F079-21F7-49C6-AAB8-E04D568FD328", 93, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "17940369723", "1242185354", "19182555077", "75", "5", "80" ]
+, [ 94, "835F6672-5225-4E64-8122-DBEE8E06E0C2", 94, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "19208684308", "1590358154", "20799042462", "79", "7", "86" ]
+, [ 95, "CA64FD37-8164-40EE-A013-12AC4174B2B3", 95, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "18531989662", "1694230154", "20226219815", "76", "7", "82" ]
+, [ 96, "823A35B8-540E-4259-A90A-3E0C5A7D67FB", 96, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "17816548431", "2050709169", "19867257600", "72", "8", "80" ]
+, [ 97, "28F23D8B-C55C-4086-B079-85442B3D4F11", 97, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "5352683", "739887", "6092570", "0", "0", "0" ]
+, [ 98, "9779D293-2B7E-4271-8BE7-BDE1182A9E0E", 98, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "4918356", "1002061", "5920417", "0", "0", "0" ]
+, [ 99, "758AAD53-6CD1-4461-B876-7E6CAB18711A", 99, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "4627209", "973090", "5600299", "0", "0", "0" ]
+, [ 100, "C64F9BAC-6E2D-46EF-BEC3-EF842036F161", 100, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "4155205", "698086", "4853291", "0", "0", "0" ]
+, [ 101, "B028776B-261D-4BB4-8BF7-B0FACC236224", 101, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "3904810", "794487", "4699297", "0", "0", "0" ]
+, [ 102, "D217FC40-C88B-40A3-B750-EF49F389B2F1", 102, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "3890783", "1030225", "4921008", "0", "0", "0" ]
+, [ 103, "2C4DADC0-9E69-4B32-BF79-5DD372C2FC72", 103, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "3276920", "1439423", "4716343", "0", "0", "0" ]
+, [ 104, "43FFF64F-3F49-4EC4-AD80-1E51F418B770", 104, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "3139818", "1862312", "5002130", "0", "0", "0" ]
+, [ 105, "1C2E0F19-E58B-4769-B3E1-715E9890B750", 105, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "3176768", "2075034", "5251802", "0", "0", "0" ]
+, [ 106, "9433EC4E-9595-4B2F-A68A-D2386E270345", 106, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "10724841", "1982058", "12706899", "0", "0", "0" ]
+, [ 107, "766D501A-8A70-411C-8AA9-61F9C8028839", 107, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "22266231", "2822447", "25088678", "0", "0", "0" ]
+, [ 108, "73CFDECC-A1B5-442F-A7A1-8177813C7A7D", 108, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "32840212", "2624062", "35464274", "0", "0", "0" ]
+, [ 109, "6008F2A9-CCB7-4F7B-A76F-6C61A004470B", 109, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "36441376", "2523189", "38964565", "0", "0", "0" ]
+, [ 110, "72EF9F21-31E8-4199-B716-2F39F44ECACA", 110, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "39017640", "3230415", "42248055", "0", "0", "0" ]
+, [ 111, "945A8DE9-D426-4D42-9FCB-F03553AD2540", 111, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "37643104", "3441405", "41084509", "0", "0", "0" ]
+, [ 112, "D4FF11B2-5995-4C50-B337-ED23164DF7E8", 112, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "36189864", "4165503", "40355367", "0", "0", "0" ]
+, [ 113, "2078B8BC-1797-4F46-B276-D9544651D461", 113, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "5656109785", "338489600", "5994599385", "27", "2", "29" ]
+, [ 114, "9FA9040C-99EE-485E-A48C-517D9FBF05A6", 114, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "4259611077", "454477785", "4714088862", "20", "2", "22" ]
+, [ 115, "E9AFFC21-CAE9-4A67-ADA0-E583D0586765", 115, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "5202550646", "534129231", "5736679877", "24", "2", "27" ]
+, [ 116, "05B9F829-AA7D-43B2-848C-29E34DED7E8E", 116, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "5589236677", "617357785", "6206594462", "26", "3", "29" ]
+, [ 117, "4E17061C-B22B-4504-9925-62D8308B503D", 117, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "6245625108", "354785477", "6600410585", "28", "2", "30" ]
+, [ 118, "AC06CF08-0667-4B8E-9790-C3033F991FA9", 118, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "7629543877", "984613908", "8614157785", "34", "4", "39" ]
+, [ 119, "836F2B04-2F8C-4148-B988-641A04C65CBF", 119, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "8032491323", "561063385", "8593554708", "36", "2", "38" ]
+, [ 120, "CCFABEF9-B459-4D91-B228-91B1F0C1F9C0", 120, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "8508941785", "816734031", "9325675815", "37", "4", "41" ]
+, [ 121, "791DCC57-66C7-4AF7-9857-63051D6851AB", 121, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "9988987077", "732498708", "10721485785", "43", "3", "47" ]
+, [ 122, "9B1E66AC-4D68-48BE-86DA-DBF9C462F6FF", 122, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "5690764800", "314944000", "6005708800", "24", "1", "26" ]
+, [ 123, "3D10406F-E986-4BDA-B16B-6DE9228F90E4", 123, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "2915654892", "252016246", "3167671138", "12", "1", "13" ]
+, [ 124, "157EC26F-464E-4285-B579-EB4D20A6FA07", 124, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "2412067938", "209522215", "2621590154", "10", "1", "11" ]
+, [ 125, "868BAFCF-BC1D-4074-B688-FF5919321BAC", 125, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "2087086277", "152780308", "2239866585", "9", "1", "9" ]
+, [ 126, "9A7053CF-53A7-48EE-BB84-7A17B98C51F5", 126, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "1786230154", "111391508", "1897621662", "7", "0", "8" ]
+, [ 127, "D7C47FBF-ADD5-42E4-9E1E-8BC0E4F9B488", 127, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "1497868308", "95975385", "1593843692", "6", "0", "6" ]
+, [ 128, "E52760E5-6421-4E6E-AF53-4938B58A5353", 128, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "1686336985", "117874215", "1804211200", "7", "0", "7" ]
+, [ 129, "CB3B0EB2-818C-4A6E-853C-BB50E8327E97", 129, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "11488973", "687557", "12176530", "0", "0", "0" ]
+, [ 130, "7839B63C-B713-4F36-A059-84397C051864", 130, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "8652335", "923158", "9575493", "0", "0", "0" ]
+, [ 131, "FD3FCBE3-7CC1-41D9-86EC-03AD9FE51BB7", 131, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "10567681", "1084950", "11652631", "0", "0", "0" ]
+, [ 132, "05CF439D-9611-4B62-B938-189A2032FB38", 132, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "11353137", "1254008", "12607145", "0", "0", "0" ]
+, [ 133, "987C89E7-0713-432B-B299-0B521DBF7E46", 133, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "12686426", "720658", "13407084", "0", "0", "0" ]
+, [ 134, "D34D23A1-F776-4DD4-8197-CB93F8307C23", 134, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "15497511", "1999997", "17497508", "0", "0", "0" ]
+, [ 135, "AC8C681B-F356-4112-A435-EB88F48461F0", 135, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "16315998", "1139660", "17455658", "0", "0", "0" ]
+, [ 136, "BC9B1F39-1BA3-421E-AE65-F2BA63D2770D", 136, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "17283788", "1658991", "18942779", "0", "0", "0" ]
+, [ 137, "F0B1E6D7-0474-46EF-B0E5-4AE5FB554A54", 137, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "20290130", "1487888", "21778018", "0", "0", "0" ]
+, [ 138, "78A0E962-D9B8-45CA-A5B7-8114E017578A", 138, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "11559366", "639730", "12199096", "0", "0", "0" ]
+, [ 139, "B6676990-E774-4623-A7EB-6EE5CD869409", 139, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "5922424", "511908", "6434332", "0", "0", "0" ]
+, [ 140, "2A6E26D3-2F32-4627-8F67-027CD8CD783A", 140, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "4899513", "425592", "5325105", "0", "0", "0" ]
+, [ 141, "D3526C1C-6D6E-4973-9309-E46B520CB98A", 141, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "4239394", "310335", "4549729", "0", "0", "0" ]
+, [ 142, "E4FD6520-3781-4667-968C-169DB8128957", 142, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "3628280", "226264", "3854544", "0", "0", "0" ]
+, [ 143, "C1886555-4AF6-40FF-8AD9-8422259924A7", 143, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "3042545", "194950", "3237495", "0", "0", "0" ]
+, [ 144, "F3AD1284-8789-4A6D-A725-126075734B37", 144, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "3425372", "239432", "3664804", "0", "0", "0" ]
+, [ 145, "5D7DB7B4-8E3E-4A1A-ADB9-4E469B0A7D2C", 145, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "8291276800", "702741662", "8994018462", "40", "3", "43" ]
+, [ 146, "9F1368BB-7666-417D-9C97-A008D544157A", 146, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "6680955569", "947800123", "7628755692", "31", "4", "36" ]
+, [ 147, "F805FB44-54F4-4F8F-8E7D-261D2890A944", 147, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "7480561231", "1013188923", "8493750154", "35", "5", "40" ]
+, [ 148, "96586A96-B66A-4E0A-9483-B4B5F9F85BF6", 148, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "7634876062", "961030892", "8595906954", "35", "4", "40" ]
+, [ 149, "0285628D-F9CB-46A8-B4B7-0777E43FB510", 149, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "8167993108", "745917538", "8913910646", "37", "3", "41" ]
+, [ 150, "7ABF8E1D-CCD4-41EC-8C36-6369ABA22AFA", 150, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "9545006277", "1491801600", "11036807877", "43", "7", "50" ]
+, [ 151, "E88F8849-ADC2-4739-B192-D773554CC1E7", 151, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "9645744246", "1269702400", "10915446646", "43", "6", "49" ]
+, [ 152, "3887A393-DA90-4B64-8DC5-5D7A16849F22", 152, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "10054698338", "1733564554", "11788262892", "44", "8", "52" ]
+, [ 153, "DB6C900A-73EE-47EE-8F96-8F37274A7537", 153, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "11552934400", "1754053908", "13306988308", "50", "8", "58" ]
+, [ 154, "DC685C46-B78E-49E7-91E9-220AE1155EC7", 154, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "10970686523", "1290726400", "12261412923", "47", "6", "53" ]
+, [ 155, "397D8A68-C0C9-4BDB-A731-48A7F4EF116E", 155, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "13877491692", "1641528615", "15519020308", "59", "7", "66" ]
+, [ 156, "DCB2B32D-AB00-4422-98A1-0DB043D1D124", 156, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "18579556923", "1501368123", "20080925046", "78", "6", "84" ]
+, [ 157, "4E9B9E1F-14F3-4E98-830F-73F3001587A4", 157, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "20027456000", "1394965662", "21422421662", "83", "6", "89" ]
+, [ 158, "F9EDCC8D-2898-472B-B928-114B66672DD1", 158, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "20994914462", "1701749662", "22696664123", "87", "7", "94" ]
+, [ 159, "EAA1CCD7-A706-420D-904A-274384DAA64D", 159, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "20029857969", "1790205538", "21820063508", "82", "7", "89" ]
+, [ 160, "81CF1FCB-123B-47C3-A33B-A38B08931AC5", 160, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "19502885415", "2168583385", "21671468800", "79", "9", "87" ]
+, [ 161, "8C045412-DB06-4776-BD9F-A02DA6E39CB2", 161, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "16841656", "1427444", "18269100", "0", "0", "0" ]
+, [ 162, "88413BFF-BCD3-4E5E-AF8C-1F9B91E8EBAD", 162, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "13570691", "1925219", "15495910", "0", "0", "0" ]
+, [ 163, "7A60985D-8F20-46B3-A428-054024AAFA17", 163, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "15194890", "2058040", "17252930", "0", "0", "0" ]
+, [ 198, "A67DBF77-A9D5-4892-86A7-84EBAD6302FA", 198, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "80241576", "11018", "80252594", "0", "0", "0" ]
+, [ 164, "8B135207-5D22-408B-9913-967CAEEC9F89", 164, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "15508342", "1952094", "17460436", "0", "0", "0" ]
+, [ 165, "D0672661-B64E-42BE-B21F-4B6CF0682118", 165, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "16591236", "1515145", "18106381", "0", "0", "0" ]
+, [ 166, "A8071E21-F67B-4BE3-81DE-3DF190D27535", 166, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "19388294", "3030222", "22418516", "0", "0", "0" ]
+, [ 167, "1F942C87-EC27-4E7D-ACA9-F2C8EE869FE8", 167, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "19592918", "2579083", "22172001", "0", "0", "0" ]
+, [ 168, "01A4BA38-3C09-459B-809C-31C570CFD3BF", 168, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "20423606", "3521303", "23944909", "0", "0", "0" ]
+, [ 169, "3B3B2AD1-577A-45D7-B88E-72CA46417B75", 169, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "23466898", "3562922", "27029820", "0", "0", "0" ]
+, [ 170, "B2575332-0C66-48F9-8B97-E2C703F502C6", 170, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "22284207", "2621788", "24905995", "0", "0", "0" ]
+, [ 171, "C2BAD948-7C58-4DED-8DC9-0C5ADFC96E05", 171, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "28188655", "3334355", "31523010", "0", "0", "0" ]
+, [ 172, "CE6986FF-67A2-47BA-A3C7-D420C565E841", 172, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "37739725", "3049654", "40789379", "0", "0", "0" ]
+, [ 173, "0D074C5F-6EC0-4AAE-B845-2A274962188C", 173, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "40680770", "2833524", "43514294", "0", "0", "0" ]
+, [ 174, "BE2D67C5-1613-47A1-822B-0835A3782118", 174, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "42645920", "3456679", "46102599", "0", "0", "0" ]
+, [ 175, "7755A93E-C8BB-46EB-9E05-BBDEF356CACE", 175, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "40685649", "3636355", "44322004", "0", "0", "0" ]
+, [ 176, "CC8D54A9-DBB1-4E45-8529-5905460B850D", 176, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "39615236", "4404935", "44020171", "0", "0", "0" ]
+, [ 177, "A83F62B7-1148-4E9D-8328-03CBCDD71EBB", 177, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "45502156", "91965", "45594121", "0", "0", "0" ]
+, [ 178, "A2F4244D-91D8-4181-BCB8-CA45B02FBE78", 178, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "49397524", "102162", "49499686", "0", "0", "0" ]
+, [ 179, "915D0BC3-EB87-4F38-8A4F-633C0F6D7A89", 179, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "47095214", "215769", "47310983", "0", "0", "0" ]
+, [ 180, "858DD297-0D41-4965-9C5F-F7DEB6B8FD68", 180, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "45906067", "174399", "46080466", "0", "0", "0" ]
+, [ 181, "CC988437-F80D-4925-A2C2-374ACB052FF6", 181, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "42940196", "208894", "43149090", "0", "0", "0" ]
+, [ 182, "303A8C15-B6A5-415F-8FDF-BD2849F9F5BE", 182, 1492700655, "891179", 1492700655, "891179", null, "2005", "US", "National", "222003984", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "38883276", "315916", "39199192", "0", "0", "0" ]
+, [ 183, "2CC11D51-A912-4848-9EE3-22B734767FA2", 183, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "38862076", "235747", "39097823", "0", "0", "0" ]
+, [ 184, "651DBE63-04F5-492D-954B-FA2CC3716BA6", 184, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "35086655", "217384", "35304039", "0", "0", "0" ]
+, [ 185, "828D91F9-B88B-45CC-88AB-C0D81E1F297A", 185, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "33123840", "322100", "33445940", "0", "0", "0" ]
+, [ 186, "B7ECDB9E-2A68-4098-8363-0571B9687709", 186, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "30228068", "197018", "30425086", "0", "0", "0" ]
+, [ 187, "BB47318E-3E1B-46C1-8B49-90911AB3C215", 187, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "27422318", "192666", "27614984", "0", "0", "0" ]
+, [ 188, "123F08B8-41F5-4816-9E42-1B7ED3CC36D1", 188, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "24636069", "164463", "24800532", "0", "0", "0" ]
+, [ 189, "512C757A-AD31-4B62-AE4F-3E205818512A", 189, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "23800851", "345143", "24145994", "0", "0", "0" ]
+, [ 190, "E186F3A5-C70E-446D-8874-E8CC0A3D6855", 190, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "21944042", "489659", "22433701", "0", "0", "0" ]
+, [ 191, "F323D5BA-291F-4412-898D-B71DD69B1652", 191, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "21335199", "630212", "21965411", "0", "0", "0" ]
+, [ 192, "8CF0AC73-4981-4BD2-A7CD-9B87B622CB2A", 192, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "19352433", "858688", "20211121", "0", "0", "0" ]
+, [ 193, "E9922595-256F-47AC-BB4A-1E38D64EAD2D", 193, 1492700655, "891179", 1492700655, "891179", null, "2000", "US", "National", "209786736", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "66134630", "17729", "66152359", "0", "0", "0" ]
+, [ 194, "2FBFD596-0462-4B65-9FA3-87E6C0646B19", 194, 1492700655, "891179", 1492700655, "891179", null, "2001", "US", "National", "212345162", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "69804806", "11675", "69816481", "0", "0", "0" ]
+, [ 195, "7DB73AB8-41F5-472A-A7CA-86091AE56DD5", 195, 1492700655, "891179", 1492700655, "891179", null, "2002", "US", "National", "214754648", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "71242932", "9827", "71252759", "0", "0", "0" ]
+, [ 196, "49EDAB02-61BB-4C1A-BAB8-89C673397E52", 196, 1492700655, "891179", 1492700655, "891179", null, "2003", "US", "National", "217068101", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "74700715", "8369", "74709084", "0", "0", "0" ]
+, [ 197, "CDF5BC05-AEAC-4720-BFDC-7FB371B272AE", 197, 1492700655, "891179", 1492700655, "891179", null, "2004", "US", "National", "219552929", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "77983437", "16833", "78000270", "0", "0", "0" ]
+, [ 199, "5DE19259-C33E-4433-8B31-DDAFBCFF7CCB", 199, 1492700655, "891179", 1492700655, "891179", null, "2006", "US", "National", "224583123", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "86576507", "63497", "86640004", "0", "0", "0" ]
+, [ 200, "5C4386AF-B524-400D-9347-84D91E188FCE", 200, 1492700655, "891179", 1492700655, "891179", null, "2007", "US", "National", "227239768", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "88266593", "101194", "88367787", "0", "0", "0" ]
+, [ 201, "46030198-B144-4579-B642-8D3C770B309F", 201, 1492700655, "891179", 1492700655, "891179", null, "2008", "US", "National", "229945137", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "94596853", "221808", "94818661", "0", "0", "0" ]
+, [ 202, "7EFE75AB-70C0-4B07-BE15-454F3B619DDA", 202, 1492700655, "891179", 1492700655, "891179", null, "2009", "US", "National", "232458335", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "94762149", "291606", "95053755", "0", "0", "0" ]
+, [ 203, "DF9B3592-8C2C-441A-937C-668AB0DBA3F2", 203, 1492700655, "891179", 1492700655, "891179", null, "2010", "US", "National", "235153929", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "99572886", "339291", "99912177", "0", "0", "0" ]
+, [ 204, "39CE1FE5-6FD7-4A27-9BEC-ADB58B4283E7", 204, 1492700655, "891179", 1492700655, "891179", null, "2011", "US", "National", "237657645", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "103097456", "464519", "103561975", "0", "0", "0" ]
+, [ 205, "BF406675-E029-493F-9E30-2AB117263CCF", 205, 1492700655, "891179", 1492700655, "891179", null, "2012", "US", "National", "240185952", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "107626111", "579234", "108205345", "0", "0", "0" ]
+, [ 206, "02563A28-540A-47B4-8D25-E28F3E3FB740", 206, 1492700655, "891179", 1492700655, "891179", null, "2013", "US", "National", "242542967", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "112352476", "654149", "113006625", "0", "0", "0" ]
+, [ 207, "40F8ABA4-7AB6-4C33-8039-8ACF3E06C416", 207, 1492700655, "891179", 1492700655, "891179", null, "2014", "US", "National", "245273438", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "113664778", "702966", "114367744", "0", "0", "0" ]
+, [ 208, "920B52E6-881E-4054-8FCB-C06067A907CE", 208, 1492700655, "891179", 1492700655, "891179", null, "2015", "US", "National", "247773709", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "116987888", "583932", "117571820", "0", "0", "0" ]
+, [ 209, "D9F037AE-1DA9-4AD6-9681-FCFDD6458CBC", 209, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "All Combustibles", "Total Combustible Tobacco", "Cigarette Equivalents", "273354303304", "17154801323", "290509104627", "1096", "69", "1164" ]
+, [ 210, "4077AE8C-46AB-43E4-8840-0B569052AAAC", 210, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Cigarettes", "Cigarette Removals", "Cigarettes", "249790085996", "7629000000", "257419085996", "1001", "31", "1032" ]
+, [ 211, "2A2F99DE-D406-458B-BB62-0C72CD984285", 211, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Cigars ", "Large Cigars", "Cigars", "4570315738", "6974839000", "11545154738", "18", "28", "46" ]
+, [ 212, "F821D5C6-096D-442A-B750-6639DDB6971B", 212, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Cigars ", "Small Cigars", "Cigars", "475333201", "21351000", "496684201", "2", "0", "2" ]
+, [ 213, "0C6AAEA6-F654-4931-A228-DD150D607B8C", 213, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Cigars ", "Total Cigars", "Cigars", "5045648939", "6996190000", "12041838939", "20", "28", "48" ]
+, [ 214, "3E5AB79E-30AC-4804-854A-72A1A0996B2F", 214, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Cigarette Equivalents", "17071982277", "2412131938", "19484114215", "68", "10", "78" ]
+, [ 215, "E2304C64-680F-4CB0-AD64-EADE755F22E9", 215, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Loose Tobacco", "Pipe Tobacco", "Pounds", "34677464", "4899643", "39577107", "0", "0", "0" ]
+, [ 216, "B669DE4A-B6A8-4086-B54B-14DE197968E8", 216, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Cigarette Equivalents", "1446586092", "117479385", "1564065477", "6", "0", "6" ]
+, [ 217, "4F081331-7CDD-47AC-AAD3-0E30B67DE246", 217, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Loose Tobacco", "Roll-Your-Own Tobacco", "Pounds", "2938378", "238630", "3177008", "0", "0", "0" ]
+, [ 218, "82E7B51D-F23A-44E9-9536-6AAFAD0BAFBD", 218, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Cigarette Equivalents", "18518568369", "2529611323", "21048179692", "74", "10", "84" ]
+, [ 219, "9F607DD3-5A64-4913-B283-A0AE36CE917D", 219, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Combustible Tobacco", "Loose Tobacco", "Total Loose Tobacco", "Pounds", "37615842", "5138273", "42754115", "0", "0", "0" ]
+, [ 220, "17D36BD4-1820-45AF-B351-1B110F0CE6A0", 220, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Noncombustible Tobacco", "Smokeless Tobacco", "Chewing Tobacco", "Pounds", "18913518", "1092411", "20005929", "0", "0", "0" ]
+, [ 221, "5FC3EC88-7367-49F0-916E-9AFE33743AAB", 221, 1500985588, "891179", 1500985588, "891179", null, "2016", "US", "National", "249485228", "Noncombustible Tobacco", "Smokeless Tobacco", "Snuff", "Pounds", "118477707", "606334", "119084041", "0", "0", "0" ]
+ ]
+}
